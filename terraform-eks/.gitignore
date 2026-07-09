@@ -1,0 +1,25 @@
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Exclude sensitive variables (custom tfvars)
+*.tfvars.json
+# But do not ignore the default terraform.tfvars if we want to check it in as a template
+# *.tfvars
+
+# Ignore override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# CLI Config files
+.terraformrc
+terraform.rc

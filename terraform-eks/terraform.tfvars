@@ -1,0 +1,12 @@
+aws_region           = "ap-south-1"
+vpc_cidr             = "10.0.0.0/16"
+public_subnet_cidrs  = ["10.0.1.0/24", "10.0.2.0/24"]
+private_subnet_cidrs = ["10.0.10.0/24", "10.0.20.0/24"]
+cluster_name         = "basic-eks-cluster"
+kubernetes_version   = "1.30"
+instance_types       = ["t3.medium"]
+disk_size            = 20
+scaling_desired_size = 2
+scaling_min_size     = 1
+scaling_max_size     = 3
+enable_monitoring    = true
