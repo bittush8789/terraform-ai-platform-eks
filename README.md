@@ -34,7 +34,7 @@ This repository provisions a beginner-friendly, secure, and production-ready **A
 ## Directory Structure
 
 ```text
-terraform-eks/
+.
 ├── provider.tf        # Dynamic provider setup for AWS, Kubernetes, and Helm
 ├── versions.tf        # Specifying Terraform and provider version constraints
 ├── variables.tf       # Parameter declaration (Region, VPC, Subnets, Node sizing, etc.)
@@ -82,7 +82,7 @@ terraform-eks/
 
 ## Deployment Instructions
 
-Execute the following commands in the `terraform-eks` folder:
+Execute the following commands in the root of the repository:
 
 ### 1. Initialize Working Directory
 Downloads required providers (AWS, Kubernetes, Helm) and sets up local workspaces.
