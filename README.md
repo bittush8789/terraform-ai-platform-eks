@@ -1,5 +1,11 @@
 # Amazon EKS Cluster Using Terraform
 
+[![Terraform](https://img.shields.io/badge/terraform-%3E%3D_1.5.0-844FBA?logo=terraform&logoColor=white)](https://www.terraform.io/)
+[![AWS](https://img.shields.io/badge/AWS-ap--south--1-FF9900?logo=amazon-aws&logoColor=white)](https://aws.amazon.com/)
+[![Kubernetes](https://img.shields.io/badge/kubernetes-v1.30-326CE5?logo=kubernetes&logoColor=white)](https://kubernetes.io/)
+[![Helm](https://img.shields.io/badge/helm-v3-0F1689?logo=helm&logoColor=white)](https://helm.sh/)
+[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+
 This repository provisions a beginner-friendly, secure, and production-ready **Amazon Elastic Kubernetes Service (EKS)** cluster on AWS using Terraform from scratch. Additionally, it implements a comprehensive cluster monitoring suite using Kubernetes Metrics Server, Prometheus, and Grafana deployed via Helm.
 
 ---
